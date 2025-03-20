@@ -1,11 +1,11 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'; // ✅ أضف هذا
 import './index.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import App from './App.jsx';
-import "@fortawesome/fontawesome-free/css/all.min.css"; // ✅ المسار الصحيح
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 if (import.meta.env.PROD) {
   window.console.log = () => {};
@@ -30,8 +30,8 @@ document.addEventListener("keydown", function (event) {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
+  
       <App />
-    </HashRouter>
+  
   </StrictMode>,
 );
