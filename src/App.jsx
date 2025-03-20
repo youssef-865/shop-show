@@ -42,7 +42,10 @@ function App() {
         { path: '*', element: <NotFound /> },
       ],
     },
-  ]);
+  ] , 
+  { basename: "/shop-show" } 
+
+);
 
   return (
     <QueryClientProvider client={queryClient}>  {/* ✅ Wrap the entire app */}
