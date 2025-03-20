@@ -9,5 +9,5 @@ export default defineConfig({
     react()
    
   ],
-  base: '/e-commerce-shop-show/'  
+  base: '/shop-show/'  
 });
