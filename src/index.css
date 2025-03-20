@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.row{
+    @apply flex flex-wrap px-4 gap-3 justify-center
+}
+
+.imgAbove{
+height: 200px;
+}
+.imgNext{
+    height: 400px;
+}
+
+.imgAbove {
+    height: 200px;  
+  }
+  
+  .imgNext {
+    height: 400px;  
+  }
+  
+  .imgAbove {
+    height: 200px;  
+  }
+  
+  .imgNext {
+    height: 400px;  
+  }
+  
+  /* 📱 Small screens (mobile) */
+  @media (max-width: 640px) {
+    .imgAbove {
+      height: 80px;  
+    }
+    .imgNext {
+      height: 160px;  
+    }
+  }
+  
+  /* 📟 Medium screens (tablets) */
+  @media (max-width: 768px) {
+    .imgAbove {
+      height: 100px;  
+    }
+    .imgNext {
+      height: 200px;  
+    }
+  }
+  
+  
